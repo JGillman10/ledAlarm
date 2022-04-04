@@ -16,4 +16,28 @@ menu "Example Configuration"
         default 24
         help
             A single RGB strip contains several LEDs.
+
+    config I2C_MASTER_SCL
+        int "SCL GPIO Num"
+        default 19 
+        help
+            GPIO number for I2C Master clock line.
+
+    config I2C_MASTER_SDA
+        int "SDA GPIO Num"
+        default 18 
+        help
+            GPIO number for I2C Master data line.      
+
+    config ALARM1_MINUTES   
+        int "Alarm 1 minutes"
+        default 0
+        help    
+            Alarm 1 set minutes, 0-59
+
+    config ALARM1_HOURS   
+        int "Alarm 1 hours"
+        default 8
+        help    
+            Alarm 1 set hours, 0-23         
 endmenu
