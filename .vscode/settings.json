@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "esp_log.h": "c",
-        "task.h": "c",
-        "led_strip.h": "c"
-    }
-}
